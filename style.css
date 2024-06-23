@@ -15,6 +15,9 @@ body {
 }
 
 @media screen and (max-width: 1800px) {
+  body {
+    background-color: aqua;
+  }
   header {
     display: flex;
     flex-direction: column;
@@ -132,6 +135,10 @@ body {
   }
 }
 @media screen and (max-width: 769px) {
+  body {
+    background-color: chartreuse;
+  }
+
   header {
     background-color: #2c4159;
     border: 20px, solid;
@@ -186,6 +193,9 @@ body {
   }
 }
 @media screen and (max-width: 480px) {
+  body {
+    background-color: cadetblue;
+  }
   .articles-container {
     flex-direction: column;
   }
