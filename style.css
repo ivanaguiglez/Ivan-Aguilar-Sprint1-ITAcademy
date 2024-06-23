@@ -42,6 +42,24 @@ body {
     border-color: #2c4159;
     padding: 10px;
   }
+  span.logo:hover {
+    cursor: pointer;
+    animation-name: show;
+    animation-duration: 1s;
+  }
+
+  @keyframes show {
+    0% {
+    }
+    50% {
+      background-color: #53bfea;
+      width: 30%;
+    }
+    100% {
+      background-color: deeppink;
+    }
+  }
+
   .nav {
     align-content: center;
     background-color: #ea5355;
